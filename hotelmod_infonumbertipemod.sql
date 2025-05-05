@@ -20,19 +20,6 @@
 --
 
 DROP TABLE IF EXISTS `infonumbertipemod`;
-/*!40101 SET @saved_cs_client     = @@character_set_client */;
-/*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `infonumbertipemod` (
-  `tipe_id` int NOT NULL AUTO_INCREMENT,
-  `tipeNumber` varchar(30) DEFAULT NULL,
-  `moneyatday` int DEFAULT NULL,
-  PRIMARY KEY (`tipe_id`)
-) ENGINE=InnoDB AUTO_INCREMENT=8 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
-
---
--- Dumping data for table `infonumbertipemod`
---
 
 LOCK TABLES `infonumbertipemod` WRITE;
 /*!40000 ALTER TABLE `infonumbertipemod` DISABLE KEYS */;
